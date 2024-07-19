@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #aab5df;
+}
+
+.container {
+  margin:;
+  display: flex;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+  box-shadow: 0 0 10px rgba(206, 186, 186, 0.1);
+}
+
+.editor {
+  margin: 20px;
+  display:flex ;
+  flex-direction: column;
+}
+
+.editor input[type="number"],
+.editor input[type="color"],
+.editor select {
+  margin: 10px 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.canvas {
+  border: 1px solid #ccc;
+  padding: 20px;
+  min-height: 400px;
+  width: 80%;
+  background-color: #e7dcf0;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.text-element {
+  position: absolute;
+  cursor: move;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  user-select: none;
+  font-family: Arial, sans-serif;
+}
+ .btn{
+  padding: 7px;
+  background-color: rgb(177, 236, 238);
+  margin: 4px;
+  border-radius: 4px;
+ }
+ #addText{
+  background-color: rgb(165, 196, 254);
+ }
